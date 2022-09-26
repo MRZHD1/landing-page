@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     display:flex;
@@ -68,8 +68,8 @@ body {
     flex: 1 1 auto;
 }
 .one > .title {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     color: #1F2937;
     font-size: 36px;
@@ -128,17 +128,25 @@ body {
 }
 .three > .box {
     display: flex;
+    flex-direction: row;
     height: 50px;
+    width: 100%;
     justify-content: space-between;
 }
 .three > .box > .sign-up {
-    margin-left: 152px;
     border-style: solid;
     border-color: white;
     border-width: 1px;
 }
-.three > .content > * {
+.three > .box > .content {
+    width:420px;
+}
+.three > .box > .content > * {
     color: white;
+}
+.three > .box > .content > .title {
+    font-size: 20px;
+    font-weight: 700;
 }
 #footer {
     display:flex;
