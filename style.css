@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.top {
+    flex: 1 1 auto;
+    background-color: rgb(198, 198, 255);
+}
+.one {
+    flex: 1 1 auto;
+    background-color: beige;
+}
+.two {
+    flex: 1 1 auto;
+    background-color: antiquewhite;
+}
+.three {
+    flex: 0.7 1 auto;
+    background-color: azure;
+    height:auto;
+}
+#footer {
+    background-color: rgb(255, 196, 196);
+
+}
